@@ -28,15 +28,16 @@ public class Estudiante extends Usuario {
 		this.numeroTelefonico = numeroTelefonico;
 	}
 
+	
+
 	@Override
 	public String toString() {
 		return "Estudiante [correoInstitucional=" + correoInstitucional + ", numeroTelefonico=" + numeroTelefonico
-				+ "]";
+				+ ", ID=" + getId() + ", Nombre=" + getNombre() + "]";
 	}
 
 	@Override
 	public boolean verificacionPrestamo() {
-		// TODO Auto-generated method stub
 		return false;
 	}
     

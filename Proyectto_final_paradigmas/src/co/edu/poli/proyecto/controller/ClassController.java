@@ -171,7 +171,7 @@ public class ClassController implements Initializable {
     		a.showAndWait();
     		return;
     	}else {
-    		equipo = new Material(noSerie_equipment.getText(), Name_equipment.getText(), description.getText(), disponible, tipe_equpment.getSelectionModel().getSelectedItem());
+    		equipo = new Material(Name_equipment.getText(), noSerie_equipment.getText(), description.getText(), disponible, tipe_equpment.getSelectionModel().getSelectedItem());
     		a.setContentText(objetos.create(equipo)+": "+ "\n"+equipo.toString());
     		a.setHeight(300);
 			a.setWidth(700);

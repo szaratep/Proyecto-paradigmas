@@ -61,17 +61,17 @@
       <content>
         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
                <children>
-                  <Text layoutX="394.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del equipo" wrappingWidth="180.98828125">
+                  <Text layoutX="45.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre del equipo" wrappingWidth="180.98828125">
                      <font>
                         <Font size="20.0" />
                      </font>
                   </Text>
-                  <TextField fx:id="Name_equipment" layoutX="141.0" layoutY="35.0" prefHeight="30.0" prefWidth="212.0">
+                  <TextField fx:id="Name_equipment" layoutX="226.0" layoutY="35.0" prefHeight="30.0" prefWidth="212.0">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </TextField>
-                  <Text layoutX="31.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No. Serie" wrappingWidth="89.833984375">
+                  <Text layoutX="483.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="No. Serie" wrappingWidth="89.833984375">
                      <font>
                         <Font size="20.0" />
                      </font>

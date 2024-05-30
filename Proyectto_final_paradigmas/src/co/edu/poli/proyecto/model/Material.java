@@ -11,12 +11,12 @@ public class Material {
     private boolean disponible;
 
     private String tipoMaterial;
-    
-    public Material(String noSerieMaterial, String nombre, String descripcion, boolean disponible,
+
+	public Material(String nombre, String noSerieMaterial, String descripcion, boolean disponible,
 			String tipoMaterial) {
 		super();
-		this.noSerieMaterial = noSerieMaterial;
 		this.nombre = nombre;
+		this.noSerieMaterial = noSerieMaterial;
 		this.descripcion = descripcion;
 		this.disponible = disponible;
 		this.tipoMaterial = tipoMaterial;
